@@ -5,59 +5,165 @@
 
 % ----- Name + Contact Information -----
 \resumeheader[
-    firstname=John,
-    middleinitial=N,
-    lastname=Doe,
-    email=john.doe@example.com,
-    phone=123-456-7890,
-    linkedin=johndoe,
-    github=johndoe,
-    city=Town,
-    state=State,
-    qrcode=./images/qr.png,
+    firstname=Patrick,
+    middleinitial=M,
+    lastname=Timons,
+    email=ptimons@mit.edu,
+    phone=973-906-0325,
+    linkedin=patricktimons,
+    github=ptimons44,
+    city=Woodside,
+    state=CA,
+    % qrcode=./images/qr.png,
     fixobjectivespacing=true
 ]
 
-\objective{A software engineering graduate with 2 years of work
-    experience at various internships \\ seeking opportunities to develop
-    web/mobile applications for Company XYZ.}
+\objective{
+    An ambitious undergraduate at the Massachusetts Institute of Technology, specializing in Natural Language Processing and excelling in problem-solving through hands-on research with Large Language Models, Variational Autoencoders, and user interfaces. Seeking a summer 2024 internship opportunity to contribute meaningfully to the evolving fields of AI and machine learning, utilizing a strong foundation in technology and innovation to drive forward advancements in these dynamic sectors.
+}
+
+
 
 % ----- Education -----
 \section{Education}
 
-\experience{Bachelor of Science}{Software Engineering}{Aug 2018}{May 2022}{
-    \noindent Fabulous Honors College \hfill GPA: 4.00 \newline
-    Super Duper University, Town, State \newline
-}
-
-% ----- Work Experience -----
-\section{Work Experience}
-
-\experience{Summer Intern}{Radiant Software Systems}{Aug 2021}{May 2021}{
-    \achievement{
-
-        Developed a mobile app in \tech{React Native} that was
-        downloaded 100k times on Google Play.
-
-    }
-    \achievement{
-
-        Collaborated in an \tech{Agile/Scrum} team of 8 engineers to
-        deliver new features every 2 weeks.
-
-    }
+\experience{Bachelor of Science}{Artificial Intelligence
+    And Decision Making}{Aug 2021}{May 2025}{
+    \noindent Massachusetts Institute of Technology \hfill GPA: 4.7/5.0 \newline
+    Second Major: Mathematics \newline
+    Relevant Coursework: Quantitative Methods for
+    Natural Language Processing (NLP), Deep Learning,
+    Intro to Linguistics, Representation, Inference, and
+    Reasoning in AI, Fundamentals of Computer
+    Programming, Intro to Algorithms, ML for
+    Computational Biology (listener), Intro to Machine
+    Learning, Probability and Random Variables, Linear
+    Algebra and Optimization, Mathematics for
+    Computer Science, Intro to Deep Learning,
+    Low-Level Programming and Assembly,
+    Microeconomics \newline
+    Planned Spring 2024: Design and Analysis of
+    Algorithms, Language and its Structure: Semantics
+    and Pragmatics, Real Analysis, Fundamentals of
+    Statistics, Managerial Finance \newline
 }
 
 % ----- Technical Projects -----
 \section{Technical Projects}
 
-\experience{Expressive Resume}{Personal Project}{Nov 2021}{Dec 2021}{
+\experience{}{Improving Deep Learning Based Molecular Fingerprints Through
+    Informed Resampling}{Oct 2023}{Dec 2023}{
+    \achievement{
+        Worked in small team to research improvements to pretraining methods for transformer-based molecular encoders
+    }
+    \achievement{
+        Created custom RoBERTa model through the use of transformers
+        and bert-loves-chemistry (ChemBERTa) software packages with
+        9.1 percent improvement in Spearman's rank correlation
+        coefficient on downstream tasks compared to the base model
+    }
+    \achievement{
+        Coauthored 5-page ACL-submission-style write-up about our
+        project and results
+    }
+}
+\experience{}{Recovering Latent Variables with Variational Autoencoders despite
+    Training Bias}{Nov 2023}{Dec 2023}{
+    \achievement{
+        Researched how beta-regularization robustifies VAEs to training
+        bias when attempting to recover latent variables}
+    \achievement{
+        Trained models with PyTorch Lightning and used scientific
+        computing libraries to generate training data and visualize
+        results
+    }
+}
+\experience{}{Attentional Search}{Jun 2023}{Jul 2023}{
+    \achievement{
+        Created search engine that uses attention mechanisms in
+        transformer-based encoders to visualize search results}
+    \achievement{
+        Designed and implemented pipeline to retrieve and visualize
+        data and created web interface with Dash
+    }
+}
+
+% ----- Work Experience -----
+\section{Work Experience}
+
+\experience{Machine Learning Researcher}{Media Lab's Human Dynamics
+    Group}{Sep 2023}{present}{
     \achievement{
 
-        Created a \tech{\LaTeX} class that makes it easy for anyone to
-        quickly create a beautiful resume and cover letter.
+        Using compute cluster to fine-tune Large Language Models on a
+        variety of datasets to benchmark open versus closed data
 
     }
 }
+
+\experience{Research Assistant}{Laboratory for Information and Decision
+    Systems}{Aug 2022}{Feb 2023}{
+    \achievement{
+
+        Spearheaded data collection initiate for fuel emission modeling
+        project
+
+    }
+    \achievement{
+        Generated simulated drive cycle data through use of MOVES
+    }
+    \achievement{
+        Worked tightly with pandas and SQL to deposit data in MySQL
+        database
+    }
+}
+
+\experience{Research and Development Intern}{Baraja}{Jun 2022}{Aug 2022}{
+    \achievement{
+
+        Programmed Raspberry Pi prototype using Python and initiated
+        product testing
+
+    }
+    \achievement{
+        Refactoring DSP chain to enable partner perception company
+        to optimize module of interest
+    }
+    \achievement{
+        Facilitated technical collaboration with third party point cloud
+        segmentation company
+    }
+}
+
+
+\section{Extracurricular Activities and Honors}
+
+\experience{Team Member}{MIT Men's Lacrosse}{Aug 2021}{present}{
+    \achievement{
+        Voted Most Improved for 2023 season, NEWMAC All-Academic Award (2023), 2022 NEWMAC Champion.
+    }}
+\experience{Club Member}{AI@MIT}{Sep 2022}{May 2023}{
+    \achievement{
+        Worked in a team of 3 to build a document summarizer and present at the AIM Labs Demo Day.
+    }}
+\experience{Teacher}{Global Teaching Labs}{}{planned Jan 2024}{
+    \achievement{
+        Teaching Applied Mathematics to advanced high school students in
+        Cremona, Italy
+    }}
+
+
+\section{Skills}
+
+\noindent \tech{Programming} (Python, C, Julia), \tech{Libraries} (PyTorch, Pytorch Lightning, Numpy, Pandas,
+SciKit Learn, Transformers, Transformers Reinforcement Library,
+Matplotlib, Plotly,
+Dash), \tech{Natural Language Processing}, \tech{Machine Learning} (Data
+Visualization, Data Structures, High Performance Computing, Slurm Workload Manager, Data Structures, Data
+Visualization, Web Scraping), \tech{Source and Version Control} (Git, Github),
+Object-Oriented-Programming, Researching Skills, Technical Writing,
+\tech{Mathematical Reasoning} (Linear Algebra, Probability)
+
+
 
 \end{document}
