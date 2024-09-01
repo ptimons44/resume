@@ -124,6 +124,11 @@
     #5
     \vspace{7pt}
 }
+\newcommand{\project}[2]{%
+    \noindent\textbf{#1}\hfill\par
+    #2
+    \vspace{7pt}
+}
 
 %% ----- Four Required Configurations -----
 \renewcommand{\normalsize}{\fontsize{10pt}{12pt}\selectfont}
