@@ -125,6 +125,12 @@
     \vspace{7pt}
 }
 
+\newcommand{\project}[3]{%
+    \noindent\textbf{#1}\hfill\href{https://github.com/ptimons44/#2}{GitHub}\par
+    #3
+    \vspace{7pt}
+}
+
 %% ----- Four Required Configurations -----
 \renewcommand{\normalsize}{\fontsize{10pt}{12pt}\selectfont}
 \setlength{\textwidth}{7.5in}

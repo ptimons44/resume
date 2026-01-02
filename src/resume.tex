@@ -12,8 +12,8 @@
     phone=973-906-0325,
     linkedin=patrick-timons,
     github=ptimons44,
-    city=Woodside,
-    state=CA,
+    city=Seattle,
+    state=WA,
     % qrcode=./images/qr.png,
     fixobjectivespacing=true
 ]
@@ -22,53 +22,50 @@
 \section{Education}
 
 \experience{Bachelor of Science}{Artificial Intelligence
-    And Decision Making}{Aug 2021}{May 2025}{
+    and Decision Making}{Aug 2021}{May 2025}{
     \noindent \textbf{Massachusetts Institute of Technology} \hfill GPA: 4.7/5.0
     \achievement{\textit{Software Engineering}: Software Performance Engineering, Algorithms II, Algorithms I, Computer Programming, Computation Structures, Low-Level Programming, Mathematics for Comp Sci}
     \achievement{\textit{Mathematics and Machine Learning}: Inference and Information (G), Machine Learning (G), Machine Learning (UG), Deep Learning (G), Deep Learning (UG), Probability, Statistics, Linear Algebra and Optimization, Representation, Inference, and Reasoning in AI, Quantitative NLP, Computer Vision}
     \achievement{\textit{Economics and Social Science}: Networks, Microeconomics, Macroeconomics, Information Policy}
     \achievement{\textit{Other Science}: Linguistics, Chemistry, Biology}
-    }
+}
 
 % ----- Work Experience -----
 \section{Work Experience}
 
-\experience{SDE Intern}{Amazon Web Services}{Jun 2024}{Aug 2024}{
-    \achievement{Designed and implemented an end-to-end data pipeline to process real-time billing data of 550,000 enterprise AWS customers}
-    \achievement{Built an ML-powered forecasting service for AWS cost-savings data analysis, served through an query-based API and a front-end dashboard}
-    \achievement{Used AWS, Athena, IaC, CDK, SageMaker, S3, API Gateway, Data Catalog, Java, TypeScript, Python}
+\experience{SDE}{AWS Billing}{Sep 2025}{present}{
+    \achievement{Utilized caching in an internal batch compute framework to launch Attribute Based Discounts in the ZHY partition}
+    \achievement{Created infrastructure to support regression testing
+    for strategic AWS customers undergoing major billing system changes}
+    \achievement{Used Java, Batch Compute Framework, Protobuf, Apache Parquet, DuckDB, Build Tools, Guice, Spock, AWS CDK}
 }
 
 \experience{Co-Founder, CTO}{Stealth Start-up}{Sep 2024}{Mar 2025}{
     \achievement{MIT \$100K Finalist: Recognized among top MIT startups for innovation and market potential}
     \achievement{Winner of Harvard Law Entrepreneurship Competition: Gained access to mentorship from 8 Harvard Law School attorneys}
-    \achievement{MIT Sandbox Grant Recipient: Awarded \$10,000 (\$5000 cash and \$5000 AWS Credits) for product development and scaling}
+    \achievement{MIT Sandbox Grant Recipient: Awarded \$10,000 (\$5,000 cash and \$5,000 AWS Credits) for product development and scaling}
 }
 
-\experience{Research Assistant}{Laboratory for Information and Decision
-    Systems}{Aug 2022}{Feb 2023}{
-    \achievement{
-
-        Spearheaded data collection initiative for fuel emission modeling
-        project
-
-    }
-    \achievement{
-        Generated simulated drive cycle data through use of MOVES
-    }
-    \achievement{
-        Used Python, SQL and pandas to deposit simulated data in a MySQL database for downstream analysis
-    }
+\experience{SDE Intern}{AWS Billing}{Jun 2024}{Aug 2024}{
+    \achievement{Designed and implemented an end-to-end data pipeline to process real-time billing data of 550,000 enterprise AWS customers}
+    \achievement{Built an ML-powered forecasting service for AWS cost-savings data analysis, served through a query-based API and a front-end dashboard}
+    \achievement{Used AWS, Athena, IaC, CDK, SageMaker, S3, API Gateway, Data Catalog, Java, TypeScript, Python}
 }
-
 
 % ----- Technical Projects -----
 \section{Technical Projects}
 
-\experience{}{Improving Deep Learning Based Molecular Fingerprints Through
-    Informed Resampling}{Oct 2023}{Dec 2023}{
+\project{Decaf Compiler}{decaf-compiler}{
     \achievement{
-        Worked in small team to research improvements to pretraining methods for transformer-based molecular encoders
+    Building a compiler for Decaf programming language from scratch with
+    Java (WIP)
+    }
+}
+
+\project{Improving Deep Learning Based Molecular Fingerprints Through
+    Informed Resampling}{6.8611-final-paper}{
+    \achievement{
+        Worked in a small team to research improvements to pretraining methods for transformer-based molecular encoders
     }
     \achievement{
         Created custom RoBERTa model through the use of transformers
@@ -81,8 +78,8 @@
         project and results
     }
 }
-\experience{}{Recovering Latent Variables with Variational Autoencoders despite
-    Training Bias}{Nov 2023}{Dec 2023}{
+\project{Recovering Latent Variables with Variational Autoencoders despite
+    Training Bias}{dlfinalproject.github.io}{
     \achievement{
         Researched how beta-regularization robustifies VAEs to training
         bias when attempting to recover latent variables}
@@ -93,15 +90,6 @@
     }
 }
 
-\experience{}{Attentional Search}{Jun 2023}{Jul 2023}{
-    \achievement{
-        Created search engine that uses attention mechanisms in
-        transformer-based encoders to visualize search results}
-    \achievement{
-        Designed and implemented pipeline to retrieve and visualize
-        data and created web interface with Dash
-    }
-}
 
 
 \section{Extracurricular Activities and Honors}
@@ -118,7 +106,7 @@
     }}
 \experience{Applied Math Teacher}{Global Teaching Labs}{Jan 2024}{Jan 2024}{
     \achievement{
-        Teaching selected topics in Operations Research with a focus on
+        Taught selected topics in Operations Research with a focus on
         Bayesian Inference to high school students in
         Cremona, Italy
     }}
@@ -127,8 +115,7 @@
 \section{Skills}
 \noindent
 \tech{Foundational}
-Data Structures \& Algorithms, Programming (Python, Java, TypeScript,
-C++), Full-Stack
+Data Structures \& Algorithms, Programming (Java, Python, Bash, C, TypeScript)
 
 \noindent
 \tech{Design Patterns and Programming Paradigms}
@@ -139,14 +126,10 @@ Object-Oriented-Programming, Procedural Programming, Concurrency, Multithreading
 \tech{Dev Ops} Source Control, Build Tools, Dependency Management, CI/CD
 
 \noindent
-\tech{Databases \& Batch Computing} SQL, Apache Spark, AWS Data Catalog,
-Slurm Workload Manager
+\tech{Databases} SQL, AWS Data Catalog, Apache Parquet, DuckDB
 
 \noindent
-\tech{Libraries and Ecosystems} React, AWS, SageMaker, PyTorch, Pytorch Lightning, Numpy, Pandas, SciKit Learn, Transformers, Transformers Reinforcement Library,
+\tech{Libraries and Ecosystems} React, Amplify, AWS, SageMaker, PyTorch Lightning, NumPy, Pandas, scikit-learn, Transformers, Transformers Reinforcement Library,
 Matplotlib, Plotly, Dash
-
-\noindent
-\tech{Soft Skills} Technical Due Diligence, Technical Writing
 
 \end{document}
